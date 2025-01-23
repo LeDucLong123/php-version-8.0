@@ -1,0 +1,10 @@
+{
+    "name": "PHP 8.0.30",
+    "image": "mcr.microsoft.com/vscode/devcontainers/php:8.0",
+    "settings": {},
+    "extensions": [
+      "felixfbecker.php-debug",
+      "bmewburn.vscode-intelephense-client"
+    ],
+    "postCreateCommand": "composer install"
+  }
